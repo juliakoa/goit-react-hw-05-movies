@@ -15,28 +15,26 @@ import css from './App.module.css';
 
 const App = () => {
   return (
-    <Router basename="goit-react-hw-05-movies">
-      <div className={css.container}>
-        <nav className={css.navbar}>
-          <Link to="/" className={css.navLink}>
-            Home
-          </Link>
-          <Link to="/movies" className={css.navLink}>
-            Search
-          </Link>
-        </nav>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/movies/:movieId" element={<MovieDetails />}>
-            <Route path="cast" element={<Cast />} />
-            <Route path="reviews" element={<Reviews />} />
-          </Route>
-          <Route path="/movies" element={<Movies />} />
+    <div className={css.container}>
+      <nav className={css.navbar}>
+        <Link to="/" className={css.navLink}>
+          Home
+        </Link>
+        <Link to="/movies" className={css.navLink}>
+          Search
+        </Link>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/movies/:movieId" element={<MovieDetails />}>
+          <Route path="cast" element={<Cast />} />
+          <Route path="reviews" element={<Reviews />} />
+        </Route>
+        <Route path="/movies" element={<Movies />} />
 
-          <Route path="*" element={<Outlet>Not Found</Outlet>} />
-        </Routes>
-      </div>
-    </Router>
+        <Route path="*" element={<Outlet>Not Found</Outlet>} />
+      </Routes>
+    </div>
   );
 };
 
