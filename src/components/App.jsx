@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Outlet,
-  Link,
-} from 'react-router-dom';
+import { Route, Routes, Outlet, Link } from 'react-router-dom';
 import Home from './Home/Home';
 import Movies from './Movies/Movies';
 import MovieDetails from './MovieDetails/MovieDetails';
