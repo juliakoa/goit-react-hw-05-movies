@@ -1,0 +1,37 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.castList {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.castItem {
+  border: 1px solid #ddd;
+  padding: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.castItem:hover {
+  transform: scale(1.05);
+}
+
+.actorImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.actorName {
+  font-weight: bold;
+}
+
+.characterName {
+  color: #666;
+}

@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchInput {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+  width: 60%;
+}
+
+.searchButton {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

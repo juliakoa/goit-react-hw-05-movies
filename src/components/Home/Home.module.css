@@ -1,0 +1,35 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.movieList {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.movieList li {
+  border: 1px solid #ddd;
+  padding: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.movieList li:hover {
+  transform: scale(1.05);
+}
+
+.movieList img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.movieTitle {
+  display: block;
+  font-size: 14px;
+  color: #333;
+}

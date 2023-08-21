@@ -1,0 +1,24 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.reviewList {
+  list-style: none;
+  padding: 0;
+}
+
+.reviewItem {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.author {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content {
+  color: #333;
+}

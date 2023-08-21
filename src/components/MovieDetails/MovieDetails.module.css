@@ -1,0 +1,31 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.activeLink {
+  background-color: #007bff;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
