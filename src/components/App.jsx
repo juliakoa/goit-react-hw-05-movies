@@ -15,7 +15,7 @@ import css from './App.module.css';
 
 const App = () => {
   return (
-    <Router basename="/goit-react-hw-05-movies">
+    <Router basename="goit-react-hw-05-movies">
       <div className={css.container}>
         <nav className={css.navbar}>
           <Link to="/" className={css.navLink}>
